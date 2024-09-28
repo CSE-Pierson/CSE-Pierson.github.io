@@ -12,3 +12,30 @@ h2
 {
     color:brown;
 }
+h3 {
+    text-align: center;
+    font-style: oblique;
+}
+.projects { 
+    display:flex; 
+    flex-wrap: wrap;
+}
+.project {
+    width: 35%;
+    margin: 20px;
+    padding: 80px 30px;
+    background: white;
+    border-radius: 25%;
+}
+.project img {
+    width: 450px;
+    height: 400px;
+    margin: 10px;
+    border: 2px solid rgb(16, 196, 154);
+    display: block;
+    margin: auto;
+}
+.project p {
+    text-align: center;
+    margin: 15px;
+}
