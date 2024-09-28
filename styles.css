@@ -1,3 +1,4 @@
+/* General Styling */
 body
 {
     background-color: rgb(62, 115, 62);
@@ -6,7 +7,12 @@ body
 h1
 {
     text-align: center;
-    color:lightsalmon;
+    color:rgb(65, 32, 19);
+}
+h1:hover {
+    color: rgb(23, 191, 158);
+    text-decoration: overline underline;
+    text-underline-offset: 5px;
 }
 h2
 {
@@ -16,6 +22,7 @@ h3 {
     text-align: center;
     font-style: oblique;
 }
+/* Project Styling */
 .projects { 
     display:flex; 
     flex-wrap: wrap;
@@ -38,4 +45,7 @@ h3 {
 .project p {
     text-align: center;
     margin: 15px;
+}
+.project img:hover {
+    border: 2px solid white;
 }
