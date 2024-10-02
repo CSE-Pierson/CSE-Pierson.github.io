@@ -49,3 +49,7 @@ h3 {
 .project img:hover {
     border: 2px solid white;
 }
+a {
+    text-decoration: none;
+    color:darkolivegreen;
+}
